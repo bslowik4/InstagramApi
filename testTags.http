@@ -1,0 +1,12 @@
+GET http://localhost:3000/api/tags/raw HTTP/1.1
+### ALL TAGS
+GET http://localhost:3000/api/tags HTTP/1.1
+### TAG BY ID
+GET http://localhost:3000/api/tags/29 HTTP/1.1
+### ADD NEW TAG
+POST http://localhost:3000/api/tags HTTP/1.1
+content-type: application/json
+
+{    
+  "name": "#newFreshh"
+}

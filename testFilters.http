@@ -1,0 +1,10 @@
+GET http://localhost:3000/api/filters/metadata/1684259792095 HTTP/1.1
+###
+PATCH http://localhost:3000/api/filters HTTP/1.1
+content-type: application/json
+
+{
+ "id": 1684866647120,
+ "filterType": "rotate",
+ "value": 15
+}
